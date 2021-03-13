@@ -1,12 +1,27 @@
-﻿<Window x:Class="Esercizio4H_1.MainWindow"
+﻿<Window x:Name="Finestra" x:Class="Nuovo_Progetto.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Esercizio4H_1"
+        xmlns:local="clr-namespace:Nuovo_Progetto"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="MainWindow" Height="450" Width="800" MouseWheel="pnlMainGrid_Mousewheel" MouseUp="pnlMainGrid_MouseUp">
+    <Grid x:Name="griglia" >
+        <TextBox x:Name="textInput"    HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="209,58,0,0"   />
+        <Label x:Name="testo_etichetta" Content="Inserisci un numero" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="53,58,0,0" Width="139"/>
+        <TextBox x:Name="textOutput" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="209,117,0,0"   />
+        <Button x:Name="bott" Content="Moltiplica x 10" HorizontalAlignment="Left" Margin="366,82,0,0" VerticalAlignment="Top" Width="114" Height="38" Click="Evento_Bottone"/>
+        <Button Content="X" HorizontalAlignment="Left" Margin="754,7,0,0" VerticalAlignment="Top" Width="23" Height="25" Background="#FFFD3838" RenderTransformOrigin="0.43,0.52" Click="ChiusuraFinestra">
+        </Button>
+        <CheckBox x:Name="Opz1" Content="Pippo" HorizontalAlignment="Left" Margin="90,202,0,0" VerticalAlignment="Top" Checked="Opz1_Checked"/>
+        <CheckBox x:Name="Opz2" Content="Pluto" HorizontalAlignment="Left" Margin="90,222,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Opz3" Content="Paperino" HorizontalAlignment="Left" Margin="90,242,0,0" VerticalAlignment="Top"/>
+        <Label Content="Seleziona tutti gli che preferisci" HorizontalAlignment="Left" Margin="31,165,0,0" VerticalAlignment="Top" Width="180" RenderTransformOrigin="0.5,0.5">
+        </Label>
+        <Button x:Name="BottoneSelezione" Content="Scelta" HorizontalAlignment="Left" Margin="237,218,0,0" VerticalAlignment="Top" Width="75" Click="ControllaSelezione"/>
+        <RadioButton x:Name="r1" Content="R1" HorizontalAlignment="Left" Margin="536,205,0,0" VerticalAlignment="Top" Checked="checkR1"/>
+        <RadioButton x:Name="r2" Content="R2" HorizontalAlignment="Left" Margin="536,185,0,0" VerticalAlignment="Top" Checked="checkR2"/>
+        <RadioButton x:Name="r3" Content="R3" HorizontalAlignment="Left" Margin="536,165,0,0" VerticalAlignment="Top" Checked="checkR3" Click="clickR3"/>
+        <TextBox x:Name="TxtRB" HorizontalAlignment="Left" Height="94" Margin="498,256,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Window>
