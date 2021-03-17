@@ -23,5 +23,6 @@
         <RadioButton x:Name="r2" Content="R2" HorizontalAlignment="Left" Margin="536,185,0,0" VerticalAlignment="Top" Checked="checkR2"/>
         <RadioButton x:Name="r3" Content="R3" HorizontalAlignment="Left" Margin="536,165,0,0" VerticalAlignment="Top" Checked="checkR3" Click="clickR3"/>
         <TextBox x:Name="TxtRB" HorizontalAlignment="Left" Height="94" Margin="498,256,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="ComboBox" HorizontalAlignment="Left" Margin="296,288,0,0" VerticalAlignment="Top" Width="118" Height="24" SelectionChanged="ComboBox_SelectionChanged" ContextMenuOpening="ComboBox_ContextMenuOpening" Loaded="ComboBox_Loaded"/>
     </Grid>
 </Window>

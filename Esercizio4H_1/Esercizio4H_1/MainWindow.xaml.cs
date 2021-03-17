@@ -104,5 +104,21 @@ namespace Nuovo_Progetto
             cont++;
             TxtRB.Text = cont.ToString();
         }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void ComboBox_ContextMenuOpening(object sender, ContextMenuEventArgs e)
+        {
+        }
+
+        private void ComboBox_Loaded(object sender, RoutedEventArgs e)
+        {
+            ComboBox.Items.Add("Opzione1");
+            ComboBox.Items.Add("Opzione2");
+            ComboBox.Items.Add("Opzione3");
+        }
     }
 }
