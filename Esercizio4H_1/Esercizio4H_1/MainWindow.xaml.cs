@@ -116,7 +116,11 @@ namespace Nuovo_Progetto
 
         private void ComboBox_Loaded(object sender, RoutedEventArgs e)
         {
-
+            ComboBox.Items.Add("Opzione 1");
+            ComboBox.Items.Add("Opzione 2");
+            ComboBox.Items.Add("Opzione 3");
+            ComboBox.Items.Add("Opzione 4");
+         
         }
 
         private void Click_Password_Confermata(object sender, RoutedEventArgs e)
