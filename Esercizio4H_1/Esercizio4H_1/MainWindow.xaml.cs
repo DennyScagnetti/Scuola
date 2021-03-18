@@ -116,9 +116,13 @@ namespace Nuovo_Progetto
 
         private void ComboBox_Loaded(object sender, RoutedEventArgs e)
         {
-            ComboBox.Items.Add("Opzione1");
-            ComboBox.Items.Add("Opzione2");
-            ComboBox.Items.Add("Opzione3");
+
+        }
+
+        private void Click_Password_Confermata(object sender, RoutedEventArgs e)
+        {
+            string psw = PswBox.Password;
+            MessageBox.Show("La tua password è " + psw);
         }
     }
 }
