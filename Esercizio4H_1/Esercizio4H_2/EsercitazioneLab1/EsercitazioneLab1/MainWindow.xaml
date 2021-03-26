@@ -5,13 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EsercitazioneLab1"
         mc:Ignorable="d"
-        Title="Convertitore" Height="150" Width="450">
+        Title="Convertitore B-D" Height="150" Width="450">
     <Grid>
-        <TextBox x:Name="Binario" HorizontalAlignment="Left" Height="23" Margin="169,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="Decimale" HorizontalAlignment="Left" Height="23" Margin="169,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Numero binario" HorizontalAlignment="Left" Margin="24,19,0,0" VerticalAlignment="Top" Width="99"/>
-        <Label Content="Numero decimale" HorizontalAlignment="Left" Margin="24,71,0,0" VerticalAlignment="Top" Width="114"/>
-        <Button x:Name="Convertitore" Content="Converti" HorizontalAlignment="Left" Margin="325,74,0,0" VerticalAlignment="Top" Width="75" Click="Converte"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="215*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="Binario" HorizontalAlignment="Left" Height="23" Margin="155.4,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" MouseDoubleClick="Binario_MouseDoubleClick" GotFocus="Binario_GotFocus"/>
+        <TextBox x:Name="Decimale" HorizontalAlignment="Left" Height="23" Margin="155.4,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" MouseDoubleClick="Decimale_MouseDoubleClick" GotFocus="Decimale_GotFocus"/>
+        <Label Content="Numero binario" HorizontalAlignment="Left" Margin="10.4,19,0,0" VerticalAlignment="Top" Width="99" Grid.Column="1"/>
+        <Label Content="Numero decimale" HorizontalAlignment="Left" Margin="10.4,71,0,0" VerticalAlignment="Top" Width="114" Grid.Column="1"/>
+        <Button x:Name="Convertitore" Content="Converti" HorizontalAlignment="Left" Margin="311.4,74,0,0" VerticalAlignment="Top" Width="75" Click="Converte" Grid.Column="1"/>
 
     </Grid>
 </Window>

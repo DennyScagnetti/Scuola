@@ -1,0 +1,15 @@
+D:\Scuola\Esercizio4H_1\Esercizio4H_2\EsercitazioneLab1\EsercitazioneLab1\bin\Debug\EsercitazioneLab1.exe.config
+D:\Scuola\Esercizio4H_1\Esercizio4H_2\EsercitazioneLab1\EsercitazioneLab1\bin\Debug\EsercitazioneLab1.exe
+D:\Scuola\Esercizio4H_1\Esercizio4H_2\EsercitazioneLab1\EsercitazioneLab1\bin\Debug\EsercitazioneLab1.pdb
+D:\Scuola\Esercizio4H_1\Esercizio4H_2\EsercitazioneLab1\EsercitazioneLab1\obj\Debug\EsercitazioneLab1.csprojAssemblyReference.cache
+D:\Scuola\Esercizio4H_1\Esercizio4H_2\EsercitazioneLab1\EsercitazioneLab1\obj\Debug\MainWindow.g.cs
+D:\Scuola\Esercizio4H_1\Esercizio4H_2\EsercitazioneLab1\EsercitazioneLab1\obj\Debug\App.g.cs
+D:\Scuola\Esercizio4H_1\Esercizio4H_2\EsercitazioneLab1\EsercitazioneLab1\obj\Debug\EsercitazioneLab1_MarkupCompile.cache
+D:\Scuola\Esercizio4H_1\Esercizio4H_2\EsercitazioneLab1\EsercitazioneLab1\obj\Debug\EsercitazioneLab1_MarkupCompile.lref
+D:\Scuola\Esercizio4H_1\Esercizio4H_2\EsercitazioneLab1\EsercitazioneLab1\obj\Debug\MainWindow.baml
+D:\Scuola\Esercizio4H_1\Esercizio4H_2\EsercitazioneLab1\EsercitazioneLab1\obj\Debug\EsercitazioneLab1.g.resources
+D:\Scuola\Esercizio4H_1\Esercizio4H_2\EsercitazioneLab1\EsercitazioneLab1\obj\Debug\EsercitazioneLab1.Properties.Resources.resources
+D:\Scuola\Esercizio4H_1\Esercizio4H_2\EsercitazioneLab1\EsercitazioneLab1\obj\Debug\EsercitazioneLab1.csproj.GenerateResource.cache
+D:\Scuola\Esercizio4H_1\Esercizio4H_2\EsercitazioneLab1\EsercitazioneLab1\obj\Debug\EsercitazioneLab1.csproj.CoreCompileInputs.cache
+D:\Scuola\Esercizio4H_1\Esercizio4H_2\EsercitazioneLab1\EsercitazioneLab1\obj\Debug\EsercitazioneLab1.exe
+D:\Scuola\Esercizio4H_1\Esercizio4H_2\EsercitazioneLab1\EsercitazioneLab1\obj\Debug\EsercitazioneLab1.pdb
