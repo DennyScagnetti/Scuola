@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,6 +31,7 @@ namespace EsercitazioneLab1
 
             InitializeComponent();
 
+            Stretchbox.Checked += new RoutedEventHandler(Stretchbox_Checked);
         }
 
         private void Converte(object sender, RoutedEventArgs e)
@@ -79,6 +81,8 @@ namespace EsercitazioneLab1
                 //fine da decimale a binario
                 Binario.Focus();
             }
+           /*var b = (Button)sender;
+            b.IsEnabled = false;*/
         }
 
         private void Binario_MouseDoubleClick(object sender, MouseButtonEventArgs e)
@@ -96,7 +100,40 @@ namespace EsercitazioneLab1
         {
             focusBin = true;
             focusDec = false;
+            
         }
+
+        private void File_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            if (openFileDialog.ShowDialog() == true)
+            {
+                Uri pippo = new Uri(openFileDialog.FileName, UriKind.Absolute);
+                immagineFile.Source = new BitmapImage(pippo);
+            }
+          
+        }
+
+        private void Risorsa_Click(object sender, RoutedEventArgs e)
+        {
+            Uri pippo = new Uri("/immagine/AlberoBinario1.PNG", UriKind.Relative);
+            immagineRisorsa.Source = new BitmapImage(pippo);
+        }
+
+        private void Stretchbox_Checked(object sender, RoutedEventArgs e)
+        {
+            if(Stretchbox.IsChecked == true) { 
+            immagineFile.Stretch = Stretch.UniformToFill;
+            immagineRisorsa.Stretch = Stretch.UniformToFill;
+            }
+            else
+            {
+                immagineFile.Stretch = Stretch.Uniform;
+                immagineRisorsa.Stretch = Stretch.Uniform;
+            }
+        }
+
+     
 
         private void Decimale_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
