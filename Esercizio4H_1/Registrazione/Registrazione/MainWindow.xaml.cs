@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Text.RegularExpressions;//Libreria per importare la classe Regex
 
 namespace Registrazione
 {
@@ -25,6 +26,11 @@ namespace Registrazione
             InitializeComponent();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string elenco_campi = "";
@@ -38,6 +44,27 @@ namespace Registrazione
             if (Email.Text == "")
             {
                 elenco_campi = elenco_campi + "Email \n";
+            }
+            else
+            {   //ESPRESSIONE REGOLARE
+                //[A-Z] lettera maiuscola; [a-z]; .(carattere jolly); \w(carattere alfanumerico); \W(carattere non alfanumerico); \s(spazio); \d(numero); \D (non numero)
+                //^(la stringa parte da qui); $(la stringa finisce qui)
+                //+ 1 o più corrispondenze; * 0 o più corrispondenze; {n} n corrispondenze precise; 
+                //https://docs.microsoft.com/it-it/dotnet/standard/base-types/regular-expression-language-quick-reference
+                string pattern = @"(@)(.+)$";
+                try
+                {
+                    Regex validazioneEmail = new Regex(pattern);
+                    bool emailValida = validazioneEmail.IsMatch(Email.Text);
+                    if (emailValida == true)
+                        MessageBox.Show("Valida!!!");
+                }
+                catch (ArgumentException A)
+                {
+                    
+                    MessageBox.Show(A.Message);
+                }
+
             }
             if (Password.Password == "")
             {
@@ -57,6 +84,7 @@ namespace Registrazione
                 elenco_campi = "Errore nella registrazione. Mancano i seguenti campi:\n" + elenco_campi;
             }
             MessageBox.Show(elenco_campi);
+
         }
 
         private void Sesso_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -104,5 +132,7 @@ namespace Registrazione
                 MessageBox.Show("Email non corretta");
             }
         }
+
+        
     }
 }
