@@ -1,0 +1,25 @@
+﻿<Window x:Class="Tessera_Sanitaria.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tessera_Sanitaria"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="370" Width="500">
+    <Grid>
+        <TextBox x:Name="Nome" HorizontalAlignment="Left" Height="23" Margin="58,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Cognome" HorizontalAlignment="Left" Height="23" Margin="58,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Foto" Content="Carica Foto" HorizontalAlignment="Left" Margin="301,252,0,0" VerticalAlignment="Top" Width="75" Click="Foto_Click"/>
+        <TextBox x:Name="Codice_fiscale" HorizontalAlignment="Left" Height="23" Margin="58,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" LostFocus="Codice_fiscale_LostFocus"/>
+        <TextBox x:Name="Data_di_nascita" HorizontalAlignment="Left" Height="23" Margin="58,244,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" LostFocus="data_di_nascita_LostFocus"/>
+        <Button x:Name="Genera" Content="genera" HorizontalAlignment="Left" Margin="73,291,0,0" VerticalAlignment="Top" Width="75" Click="Genera_Click"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="186" Margin="250,40,0,0" VerticalAlignment="Top" Width="189"/>
+        <Image x:Name="FotoProfilo" HorizontalAlignment="Left" Height="144" Margin="273,57,0,0" VerticalAlignment="Top" Width="144"/>
+        <Label Content="Nome" HorizontalAlignment="Left" Margin="58,14,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cognome" HorizontalAlignment="Left" Margin="58,83,0,0" VerticalAlignment="Top"/>
+        <Label Content="Codice Fiscale" HorizontalAlignment="Left" Margin="58,152,0,0" VerticalAlignment="Top"/>
+        <Label Content="Data di Nascita" HorizontalAlignment="Left" Margin="58,213,0,0" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>

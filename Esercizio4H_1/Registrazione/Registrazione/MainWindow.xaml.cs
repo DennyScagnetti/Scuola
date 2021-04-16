@@ -51,7 +51,7 @@ namespace Registrazione
                 //^(la stringa parte da qui); $(la stringa finisce qui)
                 //+ 1 o più corrispondenze; * 0 o più corrispondenze; {n} n corrispondenze precise; 
                 //https://docs.microsoft.com/it-it/dotnet/standard/base-types/regular-expression-language-quick-reference
-                string pattern = @"(@)(.+)$";
+                string pattern = @"(\w+)(@)(\w+)\. (\w+) $";
                 try
                 {
                     Regex validazioneEmail = new Regex(pattern);
@@ -68,6 +68,7 @@ namespace Registrazione
             }
             if (Password.Password == "")
             {
+                
                 elenco_campi = elenco_campi + "Password \n";
             }
             if (Privacy.IsChecked == false)
