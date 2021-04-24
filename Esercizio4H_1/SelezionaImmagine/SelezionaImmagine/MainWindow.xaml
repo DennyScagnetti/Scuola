@@ -14,6 +14,7 @@
         <RadioButton x:Name="RBNapoli" Content="Napoli" HorizontalAlignment="Left" Margin="51,190,0,0" VerticalAlignment="Top" Checked="RBNapoli_Checked"/>
         <Image x:Name="CittàSelezionata" HorizontalAlignment="Left" Height="171" Margin="173,83,0,0" VerticalAlignment="Top" Width="204"/>
         <Button Content="Conferma" HorizontalAlignment="Left" Margin="246,287,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <RadioButton x:Name="NuovaCittà" Content="" HorizontalAlignment="Left" Margin="51,223,0,0" VerticalAlignment="Top" IsEnabled="False" Visibility="Hidden" Checked="NuovaCittà_Checked"/>
 
     </Grid>
 </Window>

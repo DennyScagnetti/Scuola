@@ -25,7 +25,15 @@ namespace SelezionaImmagine
         {
             InitializeComponent();
         }
-
+        /* se usassi lo stesso nome per l'evento che si scatena al check di un radiobutton inserendo l'immagine a seconda del contenuto del radiobutton checkato( per esempio se checko "Venezia" deve comparirmi la foto di Venezia ecc...)
+         private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {//(RadioButton)sender.Content--> a seconda del radiobutton che scatena l'evento, mi prendo il contenuto che sarà uguale al nome dato alla foto di riferimento( o Venezia o Napoli...)
+            Uri immagine = new Uri("C:/Users/utente/Pictures/sfondi/"+(RadioButton)sender.Content+".jpg", UriKind.Absolute);
+            CittàSelezionata.Source = new BitmapImage(immagine);
+            città_selezionata = (RadioButton)sender.Content;
+        }
+         
+         */
         private void RBVenezia_Checked(object sender, RoutedEventArgs e)
         {
             Uri immagine = new Uri("C:/Users/utente/Pictures/sfondi/Venezia.jpg", UriKind.Absolute);
@@ -67,6 +75,11 @@ namespace SelezionaImmagine
             W.Show();
             this.Close();
             }
+        }
+
+        private void NuovaCittà_Checked(object sender, RoutedEventArgs e)
+        {
+            città_selezionata = NuovaCittà.Content.ToString();
         }
     }
 }
