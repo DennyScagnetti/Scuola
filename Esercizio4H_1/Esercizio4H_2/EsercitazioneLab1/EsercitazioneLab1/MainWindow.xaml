@@ -1,0 +1,24 @@
+﻿<Window x:Class="EsercitazioneLab1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EsercitazioneLab1"
+        mc:Ignorable="d"
+        Title="Convertitore B-D" Height="308.544" Width="607.12">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="106" VerticalAlignment="Top" Width="194" Source= "D:\Scuola\Esercizio4H_1\Esercizio4H_2\EsercitazioneLab1\EsercitazioneLab1\immagine\Coda1.PNG" Margin="397,10,0,0"/>
+        <TextBox x:Name="Binario" HorizontalAlignment="Left" Height="23" Margin="152,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" MouseDoubleClick="Binario_MouseDoubleClick" GotFocus="Binario_GotFocus" LostFocus="Binario_LostFocus"/>
+        <TextBox x:Name="Decimale" HorizontalAlignment="Left" Height="23" Margin="152,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" MouseDoubleClick="Decimale_MouseDoubleClick" GotFocus="Decimale_GotFocus"/>
+        <Label Content="Numero binario" HorizontalAlignment="Left" Margin="7,19,0,0" VerticalAlignment="Top" Width="99" Grid.Column="1" Height="26"/>
+        <Label Content="Numero decimale" HorizontalAlignment="Left" Margin="7,71,0,0" VerticalAlignment="Top" Width="114" Grid.Column="1" Height="26"/>
+        <Button x:Name="Convertitore" Content="Converti" HorizontalAlignment="Left" Margin="308,74,0,0" VerticalAlignment="Top" Width="75" Click="Converte" Grid.Column="1" Height="19"/>
+        <Button x:Name="File" Content="Da file" HorizontalAlignment="Left" Margin="225,237,0,0" VerticalAlignment="Top" Width="75" Click="File_Click"/>
+        <Button x:Name="Risorsa" Content="Da risorsa" HorizontalAlignment="Left" Margin="55,237,0,0" VerticalAlignment="Top" Width="75" Click="Risorsa_Click"/>
+        <Image x:Name="immagineRisorsa" HorizontalAlignment="Left" Height="100" Margin="55,121,0,0" VerticalAlignment="Top" Width="75"/>
+        <Image x:Name="immagineFile" HorizontalAlignment="Left" Height="54" Margin="183,160,0,0" VerticalAlignment="Top" Width="200" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="48,121,0,0" VerticalAlignment="Top" Width="100"/>
+        <CheckBox x:Name="Stretchbox" Content="Stretch" HorizontalAlignment="Left" Margin="400,139,0,0" VerticalAlignment="Top" Checked="Stretchbox_Checked"/>
+
+    </Grid>
+</Window>

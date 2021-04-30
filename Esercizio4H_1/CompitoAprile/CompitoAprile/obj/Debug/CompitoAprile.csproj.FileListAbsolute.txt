@@ -1,0 +1,17 @@
+D:\Scuola\Esercizio4H_1\CompitoAprile\CompitoAprile\bin\Debug\CompitoAprile.exe.config
+D:\Scuola\Esercizio4H_1\CompitoAprile\CompitoAprile\bin\Debug\CompitoAprile.exe
+D:\Scuola\Esercizio4H_1\CompitoAprile\CompitoAprile\bin\Debug\CompitoAprile.pdb
+D:\Scuola\Esercizio4H_1\CompitoAprile\CompitoAprile\obj\Debug\CompitoAprile.csprojAssemblyReference.cache
+D:\Scuola\Esercizio4H_1\CompitoAprile\CompitoAprile\obj\Debug\MainWindow.g.cs
+D:\Scuola\Esercizio4H_1\CompitoAprile\CompitoAprile\obj\Debug\Parte2.g.cs
+D:\Scuola\Esercizio4H_1\CompitoAprile\CompitoAprile\obj\Debug\App.g.cs
+D:\Scuola\Esercizio4H_1\CompitoAprile\CompitoAprile\obj\Debug\CompitoAprile_MarkupCompile.cache
+D:\Scuola\Esercizio4H_1\CompitoAprile\CompitoAprile\obj\Debug\CompitoAprile_MarkupCompile.lref
+D:\Scuola\Esercizio4H_1\CompitoAprile\CompitoAprile\obj\Debug\MainWindow.baml
+D:\Scuola\Esercizio4H_1\CompitoAprile\CompitoAprile\obj\Debug\Parte2.baml
+D:\Scuola\Esercizio4H_1\CompitoAprile\CompitoAprile\obj\Debug\CompitoAprile.g.resources
+D:\Scuola\Esercizio4H_1\CompitoAprile\CompitoAprile\obj\Debug\CompitoAprile.Properties.Resources.resources
+D:\Scuola\Esercizio4H_1\CompitoAprile\CompitoAprile\obj\Debug\CompitoAprile.csproj.GenerateResource.cache
+D:\Scuola\Esercizio4H_1\CompitoAprile\CompitoAprile\obj\Debug\CompitoAprile.csproj.CoreCompileInputs.cache
+D:\Scuola\Esercizio4H_1\CompitoAprile\CompitoAprile\obj\Debug\CompitoAprile.exe
+D:\Scuola\Esercizio4H_1\CompitoAprile\CompitoAprile\obj\Debug\CompitoAprile.pdb
