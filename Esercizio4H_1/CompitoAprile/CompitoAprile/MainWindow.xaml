@@ -9,10 +9,10 @@
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="212,6,0,0" TextWrapping="Wrap" Text="Compito in classe 4H " VerticalAlignment="Top" FontSize="22" FontWeight="Bold" Foreground="#FF2300FF"/>
         <Label Content="1)Come si calcola l'area del quadrato?" HorizontalAlignment="Left" Margin="37,75,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <RadioButton Content="lato + lato" HorizontalAlignment="Left" Margin="58,107,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="lato * lato" HorizontalAlignment="Left" Margin="58,122,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="baseMax + baseMin * h / 2 " HorizontalAlignment="Left" Margin="58,137,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="base * h / 2" HorizontalAlignment="Left" Margin="58,152,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="e1_1" Content="lato + lato" HorizontalAlignment="Left" Margin="58,107,0,0" VerticalAlignment="Top" GroupName="1"/>
+        <RadioButton x:Name="c1" Content="lato * lato" HorizontalAlignment="Left" Margin="58,122,0,0" VerticalAlignment="Top" GroupName="1"/>
+        <RadioButton x:Name="e1_2" Content="baseMax + baseMin * h / 2 " HorizontalAlignment="Left" Margin="58,137,0,0" VerticalAlignment="Top" GroupName="1"/>
+        <RadioButton x:Name="e1_3" Content="base * h / 2" HorizontalAlignment="Left" Margin="58,152,0,0" VerticalAlignment="Top" GroupName="1"/>
         <Label Content="2) Quanto vale il perimetro di un quadrato avente lato 5?" HorizontalAlignment="Left" Margin="37,196,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <TextBox x:Name="txt2" HorizontalAlignment="Left" Height="23" Margin="58,227,0,0" TextWrapping="Wrap" Text="rispondi qui" VerticalAlignment="Top" Width="120" Opacity="0.3" GotFocus="txt2_GotFocus"/>
         <Label Content="3) Quali tra questi è un triangolo rettangolo?" HorizontalAlignment="Left" Margin="34,301,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
@@ -22,9 +22,9 @@
         <Image HorizontalAlignment="Left" Height="100" Margin="64,345,0,0" VerticalAlignment="Top" Width="100" Source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfwARL_Nb9FfNOmnY0aGQvkvBaY0DwAO_RmQ&amp;usqp=CAU"  />
         <Image HorizontalAlignment="Left" Height="100" Margin="228,345,0,0" VerticalAlignment="Top" Width="100" Source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvHjdfvxWD9Dw3lfFGEbcqKys33aK3zHmLHw&amp;usqp=CAU"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="388,345,0,0" VerticalAlignment="Top" Width="100" Source="https://www.esercizimatematica.com/wp-content/uploads/2018/08/triangolo-rettangolo-area.jpg"/>
-        <RadioButton Content="1" HorizontalAlignment="Left" Margin="103,450,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="2" HorizontalAlignment="Left" Margin="262,450,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="3" HorizontalAlignment="Left" Margin="429,450,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="e3_1" Content="1" HorizontalAlignment="Left" Margin="103,450,0,0" VerticalAlignment="Top" GroupName="2"/>
+        <RadioButton x:Name="e3_2" Content="2" HorizontalAlignment="Left" Margin="262,450,0,0" VerticalAlignment="Top" GroupName="2"/>
+        <RadioButton x:Name="c2" Content="3" HorizontalAlignment="Left" Margin="429,450,0,0" VerticalAlignment="Top" GroupName="2"/>
         <TextBlock HorizontalAlignment="Left" Margin="285,41,0,0" TextWrapping="Wrap" Text="PARTE 1" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Foreground="#FF5858F7"/>
         <Button Content="AVANTI" HorizontalAlignment="Left" Margin="279,492,0,0" VerticalAlignment="Top" Width="75" Background="#FF8AB2F9" FontWeight="Bold" Foreground="White" Click="Button_Click" />
 

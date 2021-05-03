@@ -9,8 +9,8 @@
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="167,4,0,0" TextWrapping="Wrap" Text="Compito in classe 4H " VerticalAlignment="Top" FontSize="22" FontWeight="Bold" Foreground="#FF2300FF"/>
         <Label Content="5) È possibile creare un quadrato utilizzando due triangoli rettangoli" HorizontalAlignment="Left" Margin="30,218,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <RadioButton Content="Vero" HorizontalAlignment="Left" Margin="51,250,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="Falso" HorizontalAlignment="Left" Margin="51,264,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="c5" Content="Vero" HorizontalAlignment="Left" Margin="51,250,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="e5" Content="Falso" HorizontalAlignment="Left" Margin="51,264,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbl6" Content="6) Quali sono le possibili combinazioni di angoli che può avere un triangolo:" HorizontalAlignment="Left" Margin="30,300,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="240,38,0,0" TextWrapping="Wrap" Text="PARTE 2" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Foreground="#FF5858F7"/>
         <Label Content="Isoscele" HorizontalAlignment="Left" Margin="51,358,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.904,0.59"/>
@@ -21,27 +21,28 @@
         <Label Content="45°" HorizontalAlignment="Left" Margin="240,330,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.904,0.59"/>
         <Label Content="60°" HorizontalAlignment="Left" Margin="296,330,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.904,0.59"/>
         <Label Content="90°" HorizontalAlignment="Left" Margin="344,330,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.904,0.59"/>
-        <CheckBox x:Name="chk1" Content="" HorizontalAlignment="Left" Margin="145,362,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="145,396,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="145,426,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="189,362,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="189,396,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="189,426,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="240,362,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="240,396,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="240,426,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="296,362,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="296,396,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="296,426,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="344,362,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="344,396,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="344,426,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="e6_1Iso" Content="" HorizontalAlignment="Left" Margin="145,362,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="c1_1Ret" Content="" HorizontalAlignment="Left" Margin="145,396,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="c6_1Sca" Content="" HorizontalAlignment="Left" Margin="145,426,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="c6_1Iso" Content="" HorizontalAlignment="Left" Margin="189,362,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="c2_1Ret" Content="" HorizontalAlignment="Left" Margin="189,396,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="e6_1Sca" Content="" HorizontalAlignment="Left" Margin="189,426,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="c6_2Iso" Content="" HorizontalAlignment="Left" Margin="240,362,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="c2_2Ret" Content="" HorizontalAlignment="Left" Margin="240,396,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="e6_2Sca" Content="" HorizontalAlignment="Left" Margin="240,426,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="e6_2Iso" Content="" HorizontalAlignment="Left" Margin="296,362,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="c1_2Ret" Content="" HorizontalAlignment="Left" Margin="296,396,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="c6_2Sca" Content="" HorizontalAlignment="Left" Margin="296,426,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="c6_3Iso" Content="" HorizontalAlignment="Left" Margin="344,362,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="c12Ret" Content="" HorizontalAlignment="Left" Margin="344,396,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="c6_3Sca" Content="" HorizontalAlignment="Left" Margin="344,426,0,0" VerticalAlignment="Top"/>
         <Label Content="4) Quali tra queste proposizioni riguardanti un triangolo rettangolo è vera?" HorizontalAlignment="Left" Margin="31,86,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <CheckBox Content="l'ipotenusa è sempre maggiore dei singoli cateti" HorizontalAlignment="Left" Margin="51,124,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="la somma degli angoli interni è 180°" HorizontalAlignment="Left" Margin="51,144,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="ha almeno 2 angoli retti" HorizontalAlignment="Left" Margin="51,162,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="ha sempre e solo un angolo retto" HorizontalAlignment="Left" Margin="51,182,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="c4_1" Content="l'ipotenusa è sempre maggiore dei singoli cateti" HorizontalAlignment="Left" Margin="51,124,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="c4_2" Content="la somma degli angoli interni è 180°" HorizontalAlignment="Left" Margin="51,144,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="e4_1" Content="ha almeno 2 angoli retti" HorizontalAlignment="Left" Margin="51,162,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="c4_3" Content="ha sempre e solo un angolo retto" HorizontalAlignment="Left" Margin="51,182,0,0" VerticalAlignment="Top"/>
         <Button Content="INVIA" HorizontalAlignment="Left" Margin="240,492,0,0" VerticalAlignment="Top" Width="75" Background="#FF8AB2F9" FontWeight="Bold" Foreground="White" Click="Button_Click" />
+        <TextBlock x:Name="conteggio" HorizontalAlignment="Left" Margin="429,45,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Visibility="Visible"/>
 
     </Grid>
 </Window>

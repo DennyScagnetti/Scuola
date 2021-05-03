@@ -1,0 +1,15 @@
+D:\Scuola\Esercizio4H_1\Bind2\Bind2\bin\Debug\Bind2.exe.config
+D:\Scuola\Esercizio4H_1\Bind2\Bind2\bin\Debug\Bind2.exe
+D:\Scuola\Esercizio4H_1\Bind2\Bind2\bin\Debug\Bind2.pdb
+D:\Scuola\Esercizio4H_1\Bind2\Bind2\obj\Debug\Bind2.csprojAssemblyReference.cache
+D:\Scuola\Esercizio4H_1\Bind2\Bind2\obj\Debug\MainWindow.g.cs
+D:\Scuola\Esercizio4H_1\Bind2\Bind2\obj\Debug\App.g.cs
+D:\Scuola\Esercizio4H_1\Bind2\Bind2\obj\Debug\Bind2_MarkupCompile.cache
+D:\Scuola\Esercizio4H_1\Bind2\Bind2\obj\Debug\Bind2_MarkupCompile.lref
+D:\Scuola\Esercizio4H_1\Bind2\Bind2\obj\Debug\MainWindow.baml
+D:\Scuola\Esercizio4H_1\Bind2\Bind2\obj\Debug\Bind2.g.resources
+D:\Scuola\Esercizio4H_1\Bind2\Bind2\obj\Debug\Bind2.Properties.Resources.resources
+D:\Scuola\Esercizio4H_1\Bind2\Bind2\obj\Debug\Bind2.csproj.GenerateResource.cache
+D:\Scuola\Esercizio4H_1\Bind2\Bind2\obj\Debug\Bind2.csproj.CoreCompileInputs.cache
+D:\Scuola\Esercizio4H_1\Bind2\Bind2\obj\Debug\Bind2.exe
+D:\Scuola\Esercizio4H_1\Bind2\Bind2\obj\Debug\Bind2.pdb
