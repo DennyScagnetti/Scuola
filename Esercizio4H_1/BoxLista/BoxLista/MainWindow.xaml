@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BoxLista"
         mc:Ignorable="d"
-    Title="ListBoxSelectionSample" Height="250" Width="450">
+    Title="ListBoxSelectionSample" Height="268" Width="549.6">
     <DockPanel Margin="10">
         <StackPanel DockPanel.Dock="Right" Margin="10,0">
             <StackPanel.Resources>
@@ -14,11 +14,11 @@
                 </Style>
             </StackPanel.Resources>
             <TextBlock FontWeight="Bold" Margin="0,0,0,10">ListBox selection</TextBlock>
-            <Button Name="btnShowSelectedItem" Click="btnShowSelectedItem_Click">Show selected</Button>
-            <Button Name="btnSelectLast" Click="btnSelectLast_Click">Select last</Button>
-            <Button Name="btnSelectNext" Click="btnSelectNext_Click">Select next</Button>
-            <Button Name="btnSelectCSharp" Click="btnSelectCSharp_Click">Select C#</Button>
-            <Button Name="btnSelectAll" Click="btnSelectAll_Click">Select all</Button>
+            <Button Name="btnShowSelectedItem" Click="btnShowSelectedItem_Click">_Show selected</Button>
+            <Button Name="btnSelectLast" Click="btnSelectLast_Click">S_elect last</Button>
+            <Button Name="btnSelectNext" Click="btnSelectNext_Click">_Select next</Button>
+            <Button Name="btnSelectCSharp" Click="btnSelectCSharp_Click">_Select C#</Button>
+            <Button Name="btnSelectAll" Click="btnSelectAll_Click">_Select all</Button>
         </StackPanel>
         <ListBox Name="lbTodoList" HorizontalContentAlignment="Stretch" SelectionMode="Extended" SelectionChanged="lbTodoList_SelectionChanged">
             <ListBox.ItemTemplate>

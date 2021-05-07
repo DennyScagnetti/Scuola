@@ -24,10 +24,15 @@ namespace BoxLista
 		{
 			InitializeComponent();
 			List<TodoItem> items = new List<TodoItem>();
-			items.Add(new TodoItem() { Title = "Complete this WPF tutorial", Completion = 45 });
-			items.Add(new TodoItem() { Title = "Learn C#", Completion = 80 });
+			TodoItem P1 = new TodoItem() { Title = "Complete this WPF tutorial", Completion = 45 };
+			items.Add(P1);
+			TodoItem P2 = new TodoItem();
+			P2.Title = "Learn C#";
+			P2.Completion = 80;
+			items.Add(P2);
 			items.Add(new TodoItem() { Title = "Wash the car", Completion = 0 });
-
+			items.ToArray()[2].Title = "Wash the Motorbike";
+			items.ToArray()[2].Completion = 100;
 			lbTodoList.ItemsSource = items;
 		}
 
