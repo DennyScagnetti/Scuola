@@ -1,0 +1,15 @@
+D:\Scuola\Esercizio4H_1\Utenti\Utenti\bin\Debug\Utenti.exe.config
+D:\Scuola\Esercizio4H_1\Utenti\Utenti\bin\Debug\Utenti.exe
+D:\Scuola\Esercizio4H_1\Utenti\Utenti\bin\Debug\Utenti.pdb
+D:\Scuola\Esercizio4H_1\Utenti\Utenti\obj\Debug\Utenti.csprojAssemblyReference.cache
+D:\Scuola\Esercizio4H_1\Utenti\Utenti\obj\Debug\MainWindow.g.cs
+D:\Scuola\Esercizio4H_1\Utenti\Utenti\obj\Debug\App.g.cs
+D:\Scuola\Esercizio4H_1\Utenti\Utenti\obj\Debug\Utenti_MarkupCompile.cache
+D:\Scuola\Esercizio4H_1\Utenti\Utenti\obj\Debug\Utenti_MarkupCompile.lref
+D:\Scuola\Esercizio4H_1\Utenti\Utenti\obj\Debug\MainWindow.baml
+D:\Scuola\Esercizio4H_1\Utenti\Utenti\obj\Debug\Utenti.g.resources
+D:\Scuola\Esercizio4H_1\Utenti\Utenti\obj\Debug\Utenti.Properties.Resources.resources
+D:\Scuola\Esercizio4H_1\Utenti\Utenti\obj\Debug\Utenti.csproj.GenerateResource.cache
+D:\Scuola\Esercizio4H_1\Utenti\Utenti\obj\Debug\Utenti.csproj.CoreCompileInputs.cache
+D:\Scuola\Esercizio4H_1\Utenti\Utenti\obj\Debug\Utenti.exe
+D:\Scuola\Esercizio4H_1\Utenti\Utenti\obj\Debug\Utenti.pdb

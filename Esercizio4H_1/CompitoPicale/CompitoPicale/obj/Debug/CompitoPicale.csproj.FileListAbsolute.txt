@@ -1,0 +1,17 @@
+D:\Scuola\Esercizio4H_1\CompitoPicale\CompitoPicale\bin\Debug\CompitoPicale.exe.config
+D:\Scuola\Esercizio4H_1\CompitoPicale\CompitoPicale\bin\Debug\CompitoPicale.exe
+D:\Scuola\Esercizio4H_1\CompitoPicale\CompitoPicale\bin\Debug\CompitoPicale.pdb
+D:\Scuola\Esercizio4H_1\CompitoPicale\CompitoPicale\obj\Debug\CompitoPicale.csprojAssemblyReference.cache
+D:\Scuola\Esercizio4H_1\CompitoPicale\CompitoPicale\obj\Debug\MainWindow.g.cs
+D:\Scuola\Esercizio4H_1\CompitoPicale\CompitoPicale\obj\Debug\App.g.cs
+D:\Scuola\Esercizio4H_1\CompitoPicale\CompitoPicale\obj\Debug\CompitoPicale_MarkupCompile.cache
+D:\Scuola\Esercizio4H_1\CompitoPicale\CompitoPicale\obj\Debug\CompitoPicale_MarkupCompile.lref
+D:\Scuola\Esercizio4H_1\CompitoPicale\CompitoPicale\obj\Debug\MainWindow.baml
+D:\Scuola\Esercizio4H_1\CompitoPicale\CompitoPicale\obj\Debug\CompitoPicale.g.resources
+D:\Scuola\Esercizio4H_1\CompitoPicale\CompitoPicale\obj\Debug\CompitoPicale.Properties.Resources.resources
+D:\Scuola\Esercizio4H_1\CompitoPicale\CompitoPicale\obj\Debug\CompitoPicale.csproj.GenerateResource.cache
+D:\Scuola\Esercizio4H_1\CompitoPicale\CompitoPicale\obj\Debug\CompitoPicale.csproj.CoreCompileInputs.cache
+D:\Scuola\Esercizio4H_1\CompitoPicale\CompitoPicale\obj\Debug\CompitoPicale.exe
+D:\Scuola\Esercizio4H_1\CompitoPicale\CompitoPicale\obj\Debug\CompitoPicale.pdb
+D:\Scuola\Esercizio4H_1\CompitoPicale\CompitoPicale\obj\Debug\Parte2.g.cs
+D:\Scuola\Esercizio4H_1\CompitoPicale\CompitoPicale\obj\Debug\Parte2.baml

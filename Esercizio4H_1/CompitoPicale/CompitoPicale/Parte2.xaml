@@ -1,0 +1,26 @@
+﻿<Window x:Class="CompitoPicale.Parte2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CompitoPicale"
+        mc:Ignorable="d"
+        Title="Parte2" Height="224.478" Width="460.673">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="158*"/>
+            <ColumnDefinition Width="297*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="10,21,0,0" TextWrapping="Wrap" Text="La tua squadra del cuore si chiama " VerticalAlignment="Top" RenderTransformOrigin="0.48,0.389" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,82,0,0" TextWrapping="Wrap" Text="Il tuo giocatore preferito è  " VerticalAlignment="Top" RenderTransformOrigin="0.48,0.389"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,128,0,0" TextWrapping="Wrap" Text="Gioca nel ruolo di  " VerticalAlignment="Top" RenderTransformOrigin="0.48,0.389"/>
+        <Button Content="Inserisci foto" HorizontalAlignment="Left" Margin="103.2,149,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Grid.Column="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="117" VerticalAlignment="Top" Width="112" Margin="93.2,21,0,0" Grid.Column="1"/>
+        <Image x:Name="foto_giocatore" HorizontalAlignment="Left" Height="100" Margin="99.2,28,0,0" VerticalAlignment="Top" Width="100" Grid.Column="1"/>
+        <Label x:Name="sq" Content="" HorizontalAlignment="Left" Margin="16,42,0,0" VerticalAlignment="Top" Foreground="Red" FontWeight="Bold"/>
+        <Label x:Name="gioc" Content="" HorizontalAlignment="Left" Margin="16,102,0,0" VerticalAlignment="Top" Foreground="Red" FontWeight="Bold"/>
+        <Label x:Name="ruol" Content="" HorizontalAlignment="Left" Margin="16,154,0,0" VerticalAlignment="Top" Foreground="Red" FontWeight="Bold"/>
+
+
+    </Grid>
+</Window>
