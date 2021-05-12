@@ -35,40 +35,41 @@ namespace SelezionaImmagine
          
          */
         private void RBVenezia_Checked(object sender, RoutedEventArgs e)
-        {
+        {//aggiungo l'immagine di Venezia quando checko RBVenezia e mi segno tale città su una stringa città_selezionata
             Uri immagine = new Uri("C:/Users/utente/Pictures/sfondi/Venezia.jpg", UriKind.Absolute);
             CittàSelezionata.Source = new BitmapImage(immagine);
             città_selezionata = "Venezia";
         }
 
         private void RBRoma_Checked(object sender, RoutedEventArgs e)
-        {
+        {//aggiungo l'immagine di Roma quando checko RBRoma e mi segno tale città su una stringa città_selezionata
             Uri immagine = new Uri("C:/Users/utente/Pictures/sfondi/Roma.jpg", UriKind.Absolute);
             CittàSelezionata.Source = new BitmapImage(immagine);
             città_selezionata = "Roma";
         }
 
         private void RBMilano_Checked(object sender, RoutedEventArgs e)
-        {
+        {//aggiungo l'immagine di Milano quando checko RBMilano e mi segno tale città su una stringa città_selezionata
             Uri immagine = new Uri("C:/Users/utente/Pictures/sfondi/Milano.jpg", UriKind.Absolute);
             CittàSelezionata.Source = new BitmapImage(immagine);
             città_selezionata = "Milano";
         }
 
         private void RBNapoli_Checked(object sender, RoutedEventArgs e)
-        {
+        {//aggiungo l'immagine di Napoli quando checko RBNapoli e mi segno tale città su una stringa città_selezionata
             Uri immagine = new Uri("C:/Users/utente/Pictures/sfondi/Napoli.jpg", UriKind.Absolute);
             CittàSelezionata.Source = new BitmapImage(immagine);
             città_selezionata = "Napoli";
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
-        {
+        {//al click del bottone vedo se una città è stata selezionata verificando se città_selezionata è vuota
            if(città_selezionata == "")
             {
                 MessageBox.Show("Devi prima selezionare una città!!");
             }
             else { 
+                //se non è vuota passo i valori (il nome della città e il percorso dell'immagine nella seconda finestra
             SceltaEffettuata W = new SceltaEffettuata();
             W.CittàScelta.Content = città_selezionata;
             W.ImgScelta.Source = CittàSelezionata.Source;

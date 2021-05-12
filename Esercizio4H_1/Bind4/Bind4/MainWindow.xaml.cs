@@ -23,6 +23,7 @@ namespace Bind4
         public MainWindow()
         {
             InitializeComponent();
+            //creiamo il binding tra la label lblValue e il Text(il contenuto) della TextBlock
             Binding ciao = new Binding("Text");
             ciao.Source = txtValue;
             lblValue.SetBinding(TextBlock.TextProperty, ciao);

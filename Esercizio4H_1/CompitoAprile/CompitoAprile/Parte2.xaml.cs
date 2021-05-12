@@ -29,6 +29,7 @@ namespace CompitoAprile
 
             bool risp = true;
             string risp_manc = "";
+            //controllo le risposte mancanti, se manca la 3, se la 4 ecc... e me lo segno nella stringa risp_manc
             if (e4_1.IsChecked == false && c4_1.IsChecked == false && c4_2.IsChecked == false && c4_3.IsChecked == false)
             {
                 risp = false;
@@ -57,7 +58,9 @@ namespace CompitoAprile
                 risp_manc += " 6 (terza riga)";
             }
             if (risp == true)
-            {
+            {//se tutte le domande sono state risposte, calcolo il punteggio e lo sommo al punteggio
+             //che ho portato dalla prima finestra
+
                 int tot = Convert.ToInt32(conteggio.Text);
                 if (c4_1.IsChecked == true && c4_2.IsChecked == true && c4_3.IsChecked == true)
                     tot += 2;
@@ -73,7 +76,7 @@ namespace CompitoAprile
             }
             else
             {
-               
+               //se non ha risposto a tutte le domande, elenco quali ha tralasciato grazie alla stringa risp_manc
                 MessageBoxResult MR = MessageBox.Show("Hai tralasciato le seguenti risposte: " + risp_manc, "Risposte mancanti", MessageBoxButton.OKCancel, MessageBoxImage.Warning, MessageBoxResult.OK);
                 if (MR == MessageBoxResult.OK)
                     MessageBox.Show("Stai più attento");

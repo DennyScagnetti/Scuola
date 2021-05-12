@@ -29,6 +29,9 @@ namespace Nuovo_Progetto
 
         private void Evento_Bottone(object sender, RoutedEventArgs e)
         {
+            //evento scatenato dal click del bottone che moltiplica il numero inserito per 10
+            //convertendolo prima in Double(per effettuare la moltiplicazione) poi in stringa,
+            // perchè nella textbox si possono inserire solo stringhe 
             double numInserito = Double.Parse(textInput.Text);
             double numeroFinale = numInserito * 10;
             textOutput.Text = numeroFinale.ToString();
@@ -47,13 +50,15 @@ namespace Nuovo_Progetto
         }
 
         private void ChiusuraFinestra(object sender, RoutedEventArgs e)
-        {
+        {//chiude la finestra
             Close();
+            //per ridurla ad icona --> Hide();
         }
 
 
         private void ControllaSelezione(object sender, RoutedEventArgs e)
         {
+            //controllo cosa è stato selezionato e me lo segno sulla stringa scelta
             String scelta = "";
             if (Opz1.IsChecked == true)
             {
@@ -69,11 +74,11 @@ namespace Nuovo_Progetto
             }
 
             if (scelta.Equals(""))
-            {
+            {//se scelta è ancora vuota, vuol dire che non ha selezionanto niente
                 MessageBox.Show("Non hai selezionato niente");
             }
             else
-            {
+            {//altrimenti stampiamo cosa ha selezionato nella solita finestrella
                 MessageBox.Show("Hai selezionanto " + scelta);
             }
         }
@@ -115,7 +120,7 @@ namespace Nuovo_Progetto
         }
 
         private void ComboBox_Loaded(object sender, RoutedEventArgs e)
-        {
+        {//aggiungo gli oggetti nella combobox al caricamento della stessa combobox
             ComboBox.Items.Add("Opzione 1");
             ComboBox.Items.Add("Opzione 2");
             ComboBox.Items.Add("Opzione 3");
@@ -124,7 +129,7 @@ namespace Nuovo_Progetto
         }
 
         private void Click_Password_Confermata(object sender, RoutedEventArgs e)
-        {
+        {//da ricordare che per selezionare il contenuto della passwordbox, bisogna scrivere passwordbox.password
             string psw = PswBox.Password;
             MessageBox.Show("La tua password è " + psw);
         }

@@ -28,7 +28,8 @@ namespace Tessera_Sanitaria
         }
 
         private void Foto_Click(object sender, RoutedEventArgs e)
-        {
+        {//inserimento di un'immagine scelta dall'utente per mezzo di una finestra 
+         //che accede all' Hard Disk del proprio computer
             OpenFileDialog openFileDialog = new OpenFileDialog();
             if (openFileDialog.ShowDialog() == true)
             {
@@ -38,7 +39,7 @@ namespace Tessera_Sanitaria
         }
 
         private void data_di_nascita_LostFocus(object sender, RoutedEventArgs e)
-        {
+        {//verifichiamo la validità della data inserita che sia in questo formato GG/MM/AAAA
             Regex validaData = new Regex(@"\d{2}/\d{2}/\d{4}$");
             try
             {
@@ -54,7 +55,7 @@ namespace Tessera_Sanitaria
             }
         }
     private void Codice_fiscale_LostFocus(object sender, RoutedEventArgs e)
-        {
+        {//verifichiamo la validità del codice fiscale
             Regex validaData = new Regex(@"[a-zA-Z]{6}\d{2}[a-zA-Z]\d{2}[a-zA-Z]\d{3}[a-zA-Z]");
             bool valida;
             try
@@ -73,7 +74,7 @@ namespace Tessera_Sanitaria
         }
 
         private void Genera_Click(object sender, RoutedEventArgs e)
-        {
+        {//controlliamo che tutti i campi siano stati completati e ci portiamo tali valori nella seconda finestra
             if (Nome.Text != "" && Cognome.Text != "" && Codice_fiscale.Text != "" && Data_di_nascita.Text != "" && FotoProfilo.Source != null)
             {
                 RisFinale ris = new RisFinale();

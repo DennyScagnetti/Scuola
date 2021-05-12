@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,7 +24,9 @@ namespace Bind3
         {
             InitializeComponent();
             this.DataContext = this;
+            
         }
+        //effettua il binding con la proprietà textbox e la casella di testo
         private void btnUpdateSource_Click(object sender, RoutedEventArgs e)
         {
             BindingExpression binding = txtWindowTitle.GetBindingExpression(TextBox.TextProperty);

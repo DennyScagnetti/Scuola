@@ -104,7 +104,8 @@ namespace EsercitazioneLab1
         }
 
         private void File_Click(object sender, RoutedEventArgs e)
-        {
+        {//inserimento di un'immagine scelta dall'utente per mezzo di una finestra 
+         //che accede all' Hard Disk del proprio computer
             OpenFileDialog openFileDialog = new OpenFileDialog();
             if (openFileDialog.ShowDialog() == true)
             {
@@ -115,13 +116,15 @@ namespace EsercitazioneLab1
         }
 
         private void Risorsa_Click(object sender, RoutedEventArgs e)
-        {
+        {//inserimento di un'immagine specifica allo scatenarsi di questo click, 
+         //l'immagine specifica può provenire dal proprio PC oppure direttamente da un sito online
             Uri pippo = new Uri("/immagine/AlberoBinario1.PNG", UriKind.Relative);
             immagineRisorsa.Source = new BitmapImage(pippo);
         }
 
         private void Stretchbox_Checked(object sender, RoutedEventArgs e)
-        {
+        {//stretcha l'immagine, se è checkato "stretch"  adattandola
+         //al contenitore in cui è situata
             if(Stretchbox.IsChecked == true) { 
             immagineFile.Stretch = Stretch.UniformToFill;
             immagineRisorsa.Stretch = Stretch.UniformToFill;
@@ -141,7 +144,7 @@ namespace EsercitazioneLab1
 
 
         private void Decimale_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
+        {//al doppio click del mouse sulla casella di testo, svuotiamo il contenuto della stessa casella
             Decimale.Text = "";
         }
 
