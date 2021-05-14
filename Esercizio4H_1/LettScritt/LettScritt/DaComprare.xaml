@@ -1,0 +1,15 @@
+﻿<Window x:Class="LettScritt.DaComprare"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LettScritt"
+        mc:Ignorable="d"
+        Title="DaComprare" Height="423.187" Width="359.326">
+    <Grid>
+        <Border BorderBrush="Orange" BorderThickness="1" HorizontalAlignment="Left" Height="316" Margin="60,63,0,0" VerticalAlignment="Top" Width="215"/>
+        <TextBlock x:Name="lista" HorizontalAlignment="Left" Margin="81,75,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="293" Width="173" Loaded="lista_Loaded"/>
+        <Label Content="ECCO LA TUA LISTA COMPLETA" HorizontalAlignment="Left" Margin="10,17,0,0" VerticalAlignment="Top" FontSize="22" FontWeight="Bold" Foreground="#FFFF7700"/>
+        
+    </Grid>
+</Window>

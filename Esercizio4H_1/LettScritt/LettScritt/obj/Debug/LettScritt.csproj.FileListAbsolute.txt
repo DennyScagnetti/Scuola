@@ -1,0 +1,17 @@
+D:\Scuola\Esercizio4H_1\LettScritt\LettScritt\bin\Debug\LettScritt.exe.config
+D:\Scuola\Esercizio4H_1\LettScritt\LettScritt\bin\Debug\LettScritt.exe
+D:\Scuola\Esercizio4H_1\LettScritt\LettScritt\bin\Debug\LettScritt.pdb
+D:\Scuola\Esercizio4H_1\LettScritt\LettScritt\obj\Debug\LettScritt.csprojAssemblyReference.cache
+D:\Scuola\Esercizio4H_1\LettScritt\LettScritt\obj\Debug\MainWindow.g.cs
+D:\Scuola\Esercizio4H_1\LettScritt\LettScritt\obj\Debug\App.g.cs
+D:\Scuola\Esercizio4H_1\LettScritt\LettScritt\obj\Debug\LettScritt_MarkupCompile.cache
+D:\Scuola\Esercizio4H_1\LettScritt\LettScritt\obj\Debug\LettScritt_MarkupCompile.lref
+D:\Scuola\Esercizio4H_1\LettScritt\LettScritt\obj\Debug\MainWindow.baml
+D:\Scuola\Esercizio4H_1\LettScritt\LettScritt\obj\Debug\LettScritt.g.resources
+D:\Scuola\Esercizio4H_1\LettScritt\LettScritt\obj\Debug\LettScritt.Properties.Resources.resources
+D:\Scuola\Esercizio4H_1\LettScritt\LettScritt\obj\Debug\LettScritt.csproj.GenerateResource.cache
+D:\Scuola\Esercizio4H_1\LettScritt\LettScritt\obj\Debug\LettScritt.csproj.CoreCompileInputs.cache
+D:\Scuola\Esercizio4H_1\LettScritt\LettScritt\obj\Debug\LettScritt.exe
+D:\Scuola\Esercizio4H_1\LettScritt\LettScritt\obj\Debug\LettScritt.pdb
+D:\Scuola\Esercizio4H_1\LettScritt\LettScritt\obj\Debug\DaComprare.g.cs
+D:\Scuola\Esercizio4H_1\LettScritt\LettScritt\obj\Debug\DaComprare.baml
