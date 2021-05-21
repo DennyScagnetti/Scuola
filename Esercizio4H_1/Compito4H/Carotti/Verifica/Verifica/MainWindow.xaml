@@ -1,0 +1,31 @@
+﻿<Window x:Class="Verifica.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Verifica"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Quiz Aprile" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="328,10,331,0" Width="133" FontWeight="Bold"/>
+        <RadioButton x:Name="opzione1" Content="lato+lato" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,72,0,0" RenderTransformOrigin="0.735,0.931" Checked="RadioButton_Checked_2"/>
+        <RadioButton x:Name="opzione2" Content="lato*lato" HorizontalAlignment="Left" Margin="35,92,0,0" VerticalAlignment="Top" Checked="opzione2_Checked"/>
+        <RadioButton x:Name="opzione3" Content="baseMax + BaseMin *h/2" HorizontalAlignment="Left" Margin="35,112,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.567,-1.747" Height="19" Checked="opzione3_Checked"/>
+        <RadioButton x:Name="opzione4" Content="base*h / 2" HorizontalAlignment="Left" Margin="35,131,0,0" VerticalAlignment="Top"  Checked="RadioButton_Checked"/>
+        <Label x:Name="domanda1" Content="1)Come si calcola l'area del quadrato? " HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.246,2.714" Margin="10,41,0,0" FontWeight="Bold"/>
+
+        <Label x:Name="domanda3" Content="3)Quali tra questi è un triangolo rettangolo?" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,210,0,0" FontWeight="Bold"/>
+        <Label x:Name="domanda2" Content="2)Quanto vale il perimetro di un quadrato avente lato 5?" HorizontalAlignment="Left" Margin="10,151,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="risposta1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="rispondi qui" VerticalAlignment="Top" Width="111" Margin="32,182,0,0" Opacity="0.5" TextChanged="TextBox_TextChanged"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="79" Margin="10,241,0,0" VerticalAlignment="Top" Width="90"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="79" Margin="121,241,0,0" VerticalAlignment="Top" Width="90"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="79" Margin="234,241,0,0" VerticalAlignment="Top" Width="90"/>
+        <Image HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="77" Margin="22,251,0,0" Source="tr1.png"/>
+        <Image HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="77" Margin="234,251,0,0" RenderTransformOrigin="1.044,0.648" Source="tr3.jpg"/>
+        <Image HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="77" Margin="121,251,0,0" Source="tr2.png"/>
+        <Button x:Name="bottone_avanti" Content="AVANTI" HorizontalAlignment="Left" Margin="307,360,0,0" VerticalAlignment="Top" Width="101" Height="26"/>
+        <CheckBox x:Name="scelta1" Content="1" HorizontalAlignment="Left" Margin="35,334,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.935,0.443"/>
+        <CheckBox x:Name="scelta2" Content="2" HorizontalAlignment="Left" Margin="153,334,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="scelta3" Content="3" HorizontalAlignment="Left" Margin="275,334,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

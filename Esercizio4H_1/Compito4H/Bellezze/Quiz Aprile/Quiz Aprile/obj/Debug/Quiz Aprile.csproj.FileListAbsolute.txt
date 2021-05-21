@@ -1,0 +1,23 @@
+C:\Users\17andreibellezze\source\repos\Quiz Aprile\Quiz Aprile\bin\Debug\Quiz Aprile.exe.config
+C:\Users\17andreibellezze\source\repos\Quiz Aprile\Quiz Aprile\bin\Debug\Quiz Aprile.exe
+C:\Users\17andreibellezze\source\repos\Quiz Aprile\Quiz Aprile\bin\Debug\Quiz Aprile.pdb
+C:\Users\17andreibellezze\source\repos\Quiz Aprile\Quiz Aprile\obj\Debug\Quiz Aprile.csprojAssemblyReference.cache
+C:\Users\17andreibellezze\source\repos\Quiz Aprile\Quiz Aprile\obj\Debug\MainWindow.g.cs
+C:\Users\17andreibellezze\source\repos\Quiz Aprile\Quiz Aprile\obj\Debug\App.g.cs
+C:\Users\17andreibellezze\source\repos\Quiz Aprile\Quiz Aprile\obj\Debug\Quiz Aprile_MarkupCompile.cache
+C:\Users\17andreibellezze\source\repos\Quiz Aprile\Quiz Aprile\obj\Debug\Quiz Aprile_MarkupCompile.lref
+C:\Users\17andreibellezze\source\repos\Quiz Aprile\Quiz Aprile\obj\Debug\MainWindow.baml
+C:\Users\17andreibellezze\source\repos\Quiz Aprile\Quiz Aprile\obj\Debug\Quiz Aprile.g.resources
+C:\Users\17andreibellezze\source\repos\Quiz Aprile\Quiz Aprile\obj\Debug\Quiz_Aprile.Properties.Resources.resources
+C:\Users\17andreibellezze\source\repos\Quiz Aprile\Quiz Aprile\obj\Debug\Quiz Aprile.csproj.GenerateResource.cache
+C:\Users\17andreibellezze\source\repos\Quiz Aprile\Quiz Aprile\obj\Debug\Quiz Aprile.exe
+C:\Users\17andreibellezze\source\repos\Quiz Aprile\Quiz Aprile\obj\Debug\Quiz Aprile.pdb
+C:\Users\17andreibellezze\source\repos\Quiz Aprile\Quiz Aprile\obj\Debug\Window1.g.cs
+C:\Users\utente\Desktop\Compito4H\Bellezze\Quiz Aprile\Quiz Aprile\obj\Debug\Quiz Aprile.csprojAssemblyReference.cache
+C:\Users\utente\Desktop\Compito4H\Bellezze\Quiz Aprile\Quiz Aprile\obj\Debug\MainWindow.g.cs
+C:\Users\utente\Desktop\Compito4H\Bellezze\Quiz Aprile\Quiz Aprile\obj\Debug\Window1.g.cs
+C:\Users\utente\Desktop\Compito4H\Bellezze\Quiz Aprile\Quiz Aprile\obj\Debug\App.g.cs
+C:\Users\utente\Desktop\Compito4H\Bellezze\Quiz Aprile\Quiz Aprile\obj\Debug\Quiz Aprile_MarkupCompile.cache
+C:\Users\utente\Desktop\Compito4H\Bellezze\Quiz Aprile\Quiz Aprile\obj\Debug\Quiz Aprile_MarkupCompile.lref
+C:\Users\utente\Desktop\Compito4H\Bellezze\Quiz Aprile\Quiz Aprile\obj\Debug\Quiz Aprile.exe
+C:\Users\utente\Desktop\Compito4H\Bellezze\Quiz Aprile\Quiz Aprile\obj\Debug\Quiz Aprile.pdb

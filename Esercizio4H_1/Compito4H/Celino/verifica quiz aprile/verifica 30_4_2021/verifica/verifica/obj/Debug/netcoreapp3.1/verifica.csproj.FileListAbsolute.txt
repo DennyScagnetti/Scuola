@@ -1,0 +1,27 @@
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\bin\Debug\netcoreapp3.1\verifica.exe
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\bin\Debug\netcoreapp3.1\verifica.deps.json
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\bin\Debug\netcoreapp3.1\verifica.runtimeconfig.json
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\bin\Debug\netcoreapp3.1\verifica.runtimeconfig.dev.json
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\bin\Debug\netcoreapp3.1\verifica.dll
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\bin\Debug\netcoreapp3.1\verifica.pdb
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\verifica.csprojAssemblyReference.cache
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\parte2.g.cs
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\verifica_MarkupCompile.cache
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\verifica_MarkupCompile.lref
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\parte2.baml
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\verifica.g.resources
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\verifica.AssemblyInfoInputs.cache
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\verifica.AssemblyInfo.cs
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\verifica.dll
+C:\Users\17LORENZOCELINO\Desktop\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\verifica.pdb
+C:\Users\utente\Desktop\Compito4H\Celino\verifica quiz aprile\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\verifica.csprojAssemblyReference.cache
+C:\Users\utente\Desktop\Compito4H\Celino\verifica quiz aprile\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\utente\Desktop\Compito4H\Celino\verifica quiz aprile\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\parte2.g.cs
+C:\Users\utente\Desktop\Compito4H\Celino\verifica quiz aprile\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\utente\Desktop\Compito4H\Celino\verifica quiz aprile\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\verifica_MarkupCompile.cache
+C:\Users\utente\Desktop\Compito4H\Celino\verifica quiz aprile\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\verifica_MarkupCompile.lref
+C:\Users\utente\Desktop\Compito4H\Celino\verifica quiz aprile\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\verifica.dll
+C:\Users\utente\Desktop\Compito4H\Celino\verifica quiz aprile\verifica 30_4_2021\verifica\verifica\obj\Debug\netcoreapp3.1\verifica.pdb

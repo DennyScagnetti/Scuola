@@ -1,0 +1,32 @@
+﻿<Window x:Class="Quiz_Aprile.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quiz_Aprile"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="410">
+    <Grid>
+        <Label Content="COMPITO IN CLASSE 4H" HorizontalAlignment="Left" Margin="125,21,0,0" VerticalAlignment="Top"/>
+        <Label Content="Parte 1" HorizontalAlignment="Left" Margin="168,47,0,0" VerticalAlignment="Top"/>
+        <Label Content="Come si calcola l'area del quadrato?" HorizontalAlignment="Left" Margin="31,95,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <RadioButton x:Name="risposta1" Content="lato + lato" HorizontalAlignment="Left" Margin="36,121,0,0" VerticalAlignment="Top" Checked="risposta1_Checked"/>
+        <RadioButton x:Name="risposta2" Content="lato * lato" HorizontalAlignment="Left" Margin="36,141,0,0" VerticalAlignment="Top" Checked="risposta2_Checked" />
+        <RadioButton x:Name="risposta3" Content="baseMax + baseMin * h/2" HorizontalAlignment="Left" Margin="36,161,0,0" VerticalAlignment="Top" Checked="risposta3_Checked"/>
+        <RadioButton x:Name="risposta4" Content="base * h/2" HorizontalAlignment="Left" Margin="36,181,0,0" VerticalAlignment="Top" Checked="risposta4_Checked"/>
+        <Label Content="Quanto vale il perimetro di un quadrato avente lato 5?" HorizontalAlignment="Left" Margin="31,213,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="risposta5" HorizontalAlignment="Left" Height="23" Margin="36,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" AutomationProperties.HelpText="rispondi qui" TextChanged="risposta5_TextChanged" />
+        <Label Content="Quale tra questi è un triangolo rettangolo?" HorizontalAlignment="Left" Margin="31,281,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Image x:Name="img1" HorizontalAlignment="Left" Height="71" Margin="36,312,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image x:Name="img2" HorizontalAlignment="Left" Height="71" Margin="112,312,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image x:Name="img3" HorizontalAlignment="Left" Height="71" Margin="188,312,0,0" VerticalAlignment="Top" Width="71"/>
+        <RadioButton x:Name="risposta6" Content="" HorizontalAlignment="Left" Margin="62,388,0,0" VerticalAlignment="Top" Checked="risposta6_Checked" />
+        <RadioButton x:Name="risposta7" Content="" HorizontalAlignment="Left" Margin="137,388,0,0" VerticalAlignment="Top" Checked="risposta7_Checked"/>
+        <RadioButton x:Name="risposta8" Content="" HorizontalAlignment="Left" Margin="212,388,0,0" VerticalAlignment="Top" Checked="risposta8_Checked"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="71" Margin="188,312,0,0" VerticalAlignment="Top" Width="71"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="71" Margin="112,312,0,0" VerticalAlignment="Top" Width="71"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="71" Margin="36,312,0,0" VerticalAlignment="Top" Width="71"/>
+        <Button x:Name="avanti" Content="Avanti" HorizontalAlignment="Left" Margin="317,393,0,0" VerticalAlignment="Top" Width="75" Click="avanti_Click"/>
+
+    </Grid>
+</Window>

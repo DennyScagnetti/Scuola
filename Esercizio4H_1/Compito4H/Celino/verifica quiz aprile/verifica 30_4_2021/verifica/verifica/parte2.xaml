@@ -1,0 +1,48 @@
+﻿<Window x:Class="verifica.parte2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:verifica"
+        mc:Ignorable="d"
+        Title="parte2" Height="498" Width="727">
+    <Grid>
+
+        <Label Content="COMPITO IN CLASSE 4H" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" Background="#FFF59494"/>
+        <Label Content="Parte 2" HorizontalAlignment="Center" Margin="0,72,0,0" VerticalAlignment="Top"/>
+        <Label Content="4) quale tra queste proposizioni riguardanti il trinangolo rettangolo è vera?" HorizontalAlignment="Left" Margin="66,103,0,0" VerticalAlignment="Top"/>
+        <Label Content="5) è possibile creare un quadrato utilizzando due triangoli rettangoli" HorizontalAlignment="Left" Margin="66,217,0,0" VerticalAlignment="Top"/>
+        <Label Content="6)Quali sono le possibili combinazioni di angoli che può avere un triangolo: " HorizontalAlignment="Left" Margin="66,298,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="L'ipotenusa è sempre maggiore dei singoli cateti" HorizontalAlignment="Left" Margin="66,134,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <CheckBox Content="La somma degli angoli interni è 180° " HorizontalAlignment="Left" Margin="66,154,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked_1"/>
+        <CheckBox Content="ha almeno 2 angoli retti " HorizontalAlignment="Left" Margin="66,174,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="ha sempre e solo un angolo retto " HorizontalAlignment="Left" Margin="66,194,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked_2"/>
+        <RadioButton Content="vero" HorizontalAlignment="Left" Margin="66,248,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="Falso" HorizontalAlignment="Left" Margin="66,268,0,0" VerticalAlignment="Top"/>
+        <Label Content="Isoscele" HorizontalAlignment="Left" Margin="81,355,0,0" VerticalAlignment="Top"/>
+        <Label Content="rettangolo" HorizontalAlignment="Left" Margin="74,399,0,0" VerticalAlignment="Top"/>
+        <Label Content="Scaleno" HorizontalAlignment="Left" Margin="74,446,0,0" VerticalAlignment="Top"/>
+        <Label Content="30" HorizontalAlignment="Left" Margin="174,324,0,0" VerticalAlignment="Top"/>
+        <Label Content="45" HorizontalAlignment="Left" Margin="239,324,0,0" VerticalAlignment="Top"/>
+        <Label Content="45" HorizontalAlignment="Left" Margin="320,324,0,0" VerticalAlignment="Top"/>
+        <Label Content="60" HorizontalAlignment="Left" Margin="385,324,0,0" VerticalAlignment="Top"/>
+        <Label Content="90" HorizontalAlignment="Left" Margin="449,324,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content=" " HorizontalAlignment="Left" Margin="174,366,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content=" " HorizontalAlignment="Left" Margin="242,366,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content=" " HorizontalAlignment="Left" Margin="319,366,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content=" " HorizontalAlignment="Left" Margin="385,362,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content=" " HorizontalAlignment="Left" Margin="448,366,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.63,0.434"/>
+        <CheckBox Content=" " HorizontalAlignment="Left" Margin="175,410,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content=" " HorizontalAlignment="Left" Margin="243,410,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked_3"/>
+        <CheckBox x:Name="_45_2" Content=" " HorizontalAlignment="Left" Margin="320,406,0,0" VerticalAlignment="Top" Checked="_45_2_Checked"/>
+        <CheckBox Content=" " HorizontalAlignment="Left" Margin="386,406,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="_90gradi" Content=" " HorizontalAlignment="Left" Margin="449,410,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.63,0.434"/>
+        <CheckBox Content=" " HorizontalAlignment="Left" Margin="175,449,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content=" " HorizontalAlignment="Left" Margin="242,451,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content=" " HorizontalAlignment="Left" Margin="319,446,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content=" " HorizontalAlignment="Left" Margin="386,447,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content=" " HorizontalAlignment="Left" Margin="449,447,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.63,0.434"/>
+        <Button Content="Invia" HorizontalAlignment="Left" Margin="604,374,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

@@ -5,11 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LettScritt"
         mc:Ignorable="d"
-        Title="DaComprare" Height="423.187" Width="359.326">
+        Title="DaComprare" Height="423.187" Width="764.319">
     <Grid>
         <Border BorderBrush="Orange" BorderThickness="1" HorizontalAlignment="Left" Height="316" Margin="60,63,0,0" VerticalAlignment="Top" Width="215"/>
         <TextBlock x:Name="lista" HorizontalAlignment="Left" Margin="81,75,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="293" Width="173" Loaded="lista_Loaded"/>
         <Label Content="ECCO LA TUA LISTA COMPLETA" HorizontalAlignment="Left" Margin="10,17,0,0" VerticalAlignment="Top" FontSize="22" FontWeight="Bold" Foreground="#FFFF7700"/>
-        
+        <DataGrid Name="griglia" HorizontalAlignment="Left" Height="185" Margin="355,97,0,0" VerticalAlignment="Top" Width="179"/>
+        <ListBox x:Name="lvDataBinding" HorizontalAlignment="Left" Height="147" Margin="591,125,0,0" VerticalAlignment="Top" Width="133">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+                        <TextBlock Text="Nome: " />
+                        <TextBlock Text="{Binding nome}" FontWeight="Bold" />
+                        <TextBlock Text=", " />
+                        <TextBlock Text="Qtà: " />
+                        <TextBlock Text="{Binding quantità}" FontWeight="Bold" />
+                        </WrapPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
     </Grid>
 </Window>

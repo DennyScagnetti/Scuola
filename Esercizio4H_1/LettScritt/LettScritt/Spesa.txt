@@ -1,3 +1,3 @@
+succo 3
 latte 10
 cereali 3
-micol 5

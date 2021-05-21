@@ -1,0 +1,40 @@
+﻿<Window x:Class="quiz_aprile.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:quiz_aprile"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="domanda1" Content="1)Come si calcola l'area del quadrato?" HorizontalAlignment="Left" Margin="22,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <RadioButton x:Name="primaopzione" Content="lato+lato" HorizontalAlignment="Left" Margin="39,41,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton x:Name="secondaopzione" Content="lato*lato" HorizontalAlignment="Left" Margin="39,61,0,0" VerticalAlignment="Top" Checked="secondaopzione_Checked"/>
+        <RadioButton x:Name="terzaopzione" Content="basemax+basemin*h/2" HorizontalAlignment="Left" Margin="39,81,0,0" VerticalAlignment="Top" Checked="terzaopzione_Checked"/>
+        <RadioButton x:Name="quartaopzione" Content="base*h/2" HorizontalAlignment="Left" Margin="40,101,0,0" VerticalAlignment="Top" Checked="quartaopzione_Checked"/>
+        <Label x:Name="domanda2" Content="2)quanto vale il perimetro di un quadato avente lato 5" HorizontalAlignment="Left" Margin="22,134,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="txtrisposta2" HorizontalAlignment="Left" Height="23" Margin="39,165,0,0" TextWrapping="Wrap" Text="rispondi qui" VerticalAlignment="Top" Width="120" SelectionOpacity="-1" Opacity="0.5" TextChanged="txtrisposta2_TextChanged" />
+        <Label x:Name="domanda3" Content="3)Quali tra questi è un triangolo rettangolo?" HorizontalAlignment="Left" Margin="22,206,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="39,237,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image x:Name="img1" HorizontalAlignment="Left" Height="94" Margin="40,243,0,0" VerticalAlignment="Top" Width="93" Source="tr1.png"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="182,237,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image x:Name="img2" HorizontalAlignment="Left" Height="100" Margin="184,240,0,0" VerticalAlignment="Top" Width="95" Source="tr2.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.374"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.327"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="313,237,0,0" VerticalAlignment="Top" Width="100">
+            <Image x:Name="img3" Source="tr3.jpg"/>
+        </Border>
+        <Button x:Name="btnavanti" Content="Avanti" HorizontalAlignment="Left" Margin="410,380,0,0" VerticalAlignment="Top" Width="75" Background="#FF1C47DA"/>
+        <CheckBox x:Name="o1" Content="1" HorizontalAlignment="Left" Margin="77,352,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <CheckBox x:Name="o2" Content="2" HorizontalAlignment="Left" Margin="219,352,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked_1"/>
+        <CheckBox x:Name="o3" Content="3" HorizontalAlignment="Left" Margin="358,352,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked_2"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+C:\Users\17TizianoEvangelisti\source\repos\QuizAprile\QuizAprile\obj\Debug\QuizAprile.csprojAssemblyReference.cache
+C:\Users\17TizianoEvangelisti\source\repos\QuizAprile\QuizAprile\obj\Debug\MainWindow.g.cs
+C:\Users\17TizianoEvangelisti\source\repos\QuizAprile\QuizAprile\obj\Debug\SecondaPagina.g.cs
+C:\Users\17TizianoEvangelisti\source\repos\QuizAprile\QuizAprile\obj\Debug\App.g.cs
+C:\Users\17TizianoEvangelisti\source\repos\QuizAprile\QuizAprile\obj\Debug\QuizAprile_MarkupCompile.cache
+C:\Users\17TizianoEvangelisti\source\repos\QuizAprile\QuizAprile\obj\Debug\QuizAprile_MarkupCompile.lref
+C:\Users\17TizianoEvangelisti\source\repos\QuizAprile\QuizAprile\bin\Debug\QuizAprile.exe.config
+C:\Users\17TizianoEvangelisti\source\repos\QuizAprile\QuizAprile\bin\Debug\QuizAprile.exe
+C:\Users\17TizianoEvangelisti\source\repos\QuizAprile\QuizAprile\bin\Debug\QuizAprile.pdb
+C:\Users\17TizianoEvangelisti\source\repos\QuizAprile\QuizAprile\obj\Debug\MainWindow.baml
+C:\Users\17TizianoEvangelisti\source\repos\QuizAprile\QuizAprile\obj\Debug\SecondaPagina.baml
+C:\Users\17TizianoEvangelisti\source\repos\QuizAprile\QuizAprile\obj\Debug\QuizAprile.g.resources
+C:\Users\17TizianoEvangelisti\source\repos\QuizAprile\QuizAprile\obj\Debug\QuizAprile.Properties.Resources.resources
+C:\Users\17TizianoEvangelisti\source\repos\QuizAprile\QuizAprile\obj\Debug\QuizAprile.csproj.GenerateResource.cache
+C:\Users\17TizianoEvangelisti\source\repos\QuizAprile\QuizAprile\obj\Debug\QuizAprile.exe
+C:\Users\17TizianoEvangelisti\source\repos\QuizAprile\QuizAprile\obj\Debug\QuizAprile.pdb

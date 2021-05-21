@@ -28,7 +28,7 @@ namespace LettScritt
             InitializeComponent();
 
             Cosa cosa1 = new Cosa();
-            cosa1.nome = "caffè";
+            cosa1.nome = "succo";
             cosa1.quantità = 3;
             cosa.Add(cosa1);
             cosa.Add(new Cosa() { nome = "latte", quantità=10 }) ;
@@ -92,7 +92,7 @@ namespace LettScritt
             }
             catch (Exception exce)
             {
-                Console.WriteLine("Exception: " + exce.Message);
+                MessageBox.Show("ERROREE");
             }
         }
     }

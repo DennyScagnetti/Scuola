@@ -1,0 +1,6 @@
+C:\Users\utente\Desktop\Compito4H\Barile\quizaprile\quizaprile\obj\Debug\quizaprile.csprojAssemblyReference.cache
+C:\Users\utente\Desktop\Compito4H\Barile\quizaprile\quizaprile\obj\Debug\MainWindow.g.cs
+C:\Users\utente\Desktop\Compito4H\Barile\quizaprile\quizaprile\obj\Debug\Window1.g.cs
+C:\Users\utente\Desktop\Compito4H\Barile\quizaprile\quizaprile\obj\Debug\App.g.cs
+C:\Users\utente\Desktop\Compito4H\Barile\quizaprile\quizaprile\obj\Debug\quizaprile_MarkupCompile.cache
+C:\Users\utente\Desktop\Compito4H\Barile\quizaprile\quizaprile\obj\Debug\quizaprile_MarkupCompile.lref

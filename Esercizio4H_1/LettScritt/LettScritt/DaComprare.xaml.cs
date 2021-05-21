@@ -20,14 +20,17 @@ namespace LettScritt
     /// </summary>
     public partial class DaComprare : Window
     {
+        List<Cosa> listaFinale = new List<Cosa>();
         public DaComprare()
         {
             InitializeComponent();
+            
         }
 
         private void lista_Loaded(object sender, RoutedEventArgs e)
         {
             String riga;
+            
             try
             {
                 //Pass the file path and file name to the StreamReader constructor
@@ -37,15 +40,20 @@ namespace LettScritt
                 //Continue to read until you reach end of file
                 while (riga != null)
                 {
+
                     //write the lie to console window
                     lista.Inlines.Add(riga);
                     lista.Text += "\n";
+                    
+                    listaFinale.Add(new Cosa() {nome = riga.Substring(0, riga.IndexOf(" ")), quantità = Convert.ToInt32(riga.Substring(riga.IndexOf(" "))) });
+                    
                     //Read the next line
                     riga = sr.ReadLine();
                 }
                 //close the file
                 sr.Close();
-              
+                griglia.ItemsSource = listaFinale;
+                lvDataBinding.ItemsSource = listaFinale;
             }
             catch (Exception excep)
             {
